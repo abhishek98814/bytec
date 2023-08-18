@@ -1,0 +1,65 @@
+
+.text-dark {
+    font-family: "Playfair Display";
+    font-weight: bold;
+  }
+  .foter {
+    background: rgba(0, 74, 173, 0.03);
+    height: 350px;
+  }
+  .lato {
+    display: block;
+    list-style: none;
+    margin: 0.1;
+    font-family:'Lato', sans-serif;
+  }
+  
+  .input input {
+    box-sizing: border-box;
+    position: absolute;
+    width: 300.13px;
+    height: 65px;
+    border: #ffffff;
+    border: none;
+    background: rgba(0, 74, 173, 0.03);
+    border: 0.5px solid rgba(0, 0, 0, 0.12);
+    border-radius: 12px;
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  .suscribe {
+    box-sizing: border-box;
+  
+    position: absolute;
+    width: 173px;
+    height: 65px;
+    left: 78%;
+  
+    background: #004aad;
+    border: 0.5px solid rgba(0, 0, 0, 0.12);
+    border-radius: 0px 12px 12px 0px;
+  }
+  .latp{
+      font-family: 'Lato', sans-serif;
+  }
+  
+  @media (max-width: 582px) {
+    .foter {
+      background: rgba(0, 74, 173, 0.03);
+      height: 50px;
+    }
+  
+  .input input{
+    width: 160px;
+    height: 45px;
+    position: relative;
+  }
+  .suscribe{
+    left: 40%;
+    width: 140px;
+    height: 44px;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+  }
+  }

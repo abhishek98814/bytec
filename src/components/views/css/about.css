@@ -1,0 +1,22 @@
+.about{
+    background: url('../../../assets/images/team1.png');
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.about .btn{
+    font-family: 'playfair Display';
+    position: absolute;
+    background: rgba(250, 250, 250, 0.75);
+    border-radius: 10px;
+    width: 202px;
+    height: 55px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-weight: 700;
+    font-size: 24px;
+}
